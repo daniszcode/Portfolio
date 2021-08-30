@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #060608;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: url(/assets/cerejeira.png) 5% repeat;
+  background-size: cover;
+}
+.header-container .nav-menu {
+  font-size: 12pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #E7DFDD;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 15px 26px;
+}
+.header-container .nav-menu .nav-menu--list {
+  display: flex;
+  list-style: none;
+}
+.header-container .nav-menu .nav-menu--list .menu-list--option {
+  text-decoration: none;
+  margin-right: 36px;
+  font-size: 12pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #E7DFDD;
+}
+.header-container .nav-menu .button-header {
+  width: 90px;
+  height: 40px;
+  font-size: 12pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #E7DFDD;
+  border-radius: 20px;
+  background-color: #23BE53;
+  border: none;
+  width: 110px;
+  height: 40px;
+  margin-top: -5px;
+}
+
+/*# sourceMappingURL=index.css.map */

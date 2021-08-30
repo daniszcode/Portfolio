@@ -1,0 +1,9 @@
+@mixin conteiner-box($direction, $display ){ 
+    display: flex;
+    flex-direction: row;
+}
+@mixin conteiner($size-w, $size-h) {
+    width: $size-w;
+    height: $size-h;
+
+}
