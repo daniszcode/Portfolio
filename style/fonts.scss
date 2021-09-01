@@ -1,19 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 @mixin tipografia-1 {
-    font-size: 12pt;
-    line-height: 1.3;
-    font-family: 'Inter', 'monoespace', sans-serif;
-    font-weight: 400;
-    color: #E7DFDD;
-  }
-
-  @mixin tipografia-2 {
     font-size: 15pt;
     line-height: 1.3;
     font-family: 'Inter', 'monoespace', sans-serif;
     font-weight: 400;
+    color: #ffffff
+  }
+
+  @mixin tipografia-2 {
+    font-size: 18pt;
+    line-height: 1.3;
+    font-family: 'Inter', 'monoespace', sans-serif;
+    font-weight: 700;
     color: #23BE53;
 
   }

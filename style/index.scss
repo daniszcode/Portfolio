@@ -1,41 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "./fonts.scss";
 @import "./reset.scss";
 @import "./mixing.scss";
 
+/*######################### HEADER ######################### */
 .header-container {
     @include conteiner-box(row, flex);
     @include conteiner(100%, 100%);
-    background: url(/assets/cerejeira.png) 5% repeat;
-    background-size: cover;
-.nav-menu {
-    @include tipografia-1;
-    @include conteiner-box(row, flex);
-    @include conteiner(100%, 100%); 
-    justify-content: flex-end;
-    padding: 15px 26px;
+    .nav-menu {
+        @include tipografia-1;
+        @include conteiner-box(row, flex);
+        @include conteiner(100%, 100%);
+        justify-content: flex-end;
+        padding: 15px 26px;
 
-    .nav-menu--list{
-        display: flex;
-        list-style: none;
+        .nav-menu--list {
+            display: flex;
+            list-style: none;
 
-        .menu-list--option{
-            text-decoration: none;
-            margin-right: 36px;
+            .menu-list--option {
+                text-decoration: none;
+                margin-right: 36px;
+                @include tipografia-1;
+
+            }
+        }
+
+        .button-header {
             @include tipografia-1;
+            border-radius: 20px;
+            background-color: #23BE53;
+            border: none;
+            @include conteiner(110px, 40px);
+            margin-top: -5px;
 
+            .button-header--anchor {
+                text-decoration: none;
+                @include tipografia-1;
+            }
         }
     }
-    .button-header{
-        @include conteiner(90px, 40px); 
-        @include tipografia-1;
-        border-radius: 20px;
-        background-color: #23BE53;
-        border: none;
-        width: 110px;
-        height: 40px;
-        margin-top: -5px;
-    }
+
 }
+
+/*######################### MAIN ######################### */
+
+.main-container {
+    @include conteiner(100%, 100%);
+    display: flex;
+
+    .section-container {
+        @include conteiner(100%, 100%);
+        display: flex;
+        flex-direction: column;
+        padding: 267px 86px;
+        .section-title {
+            @include tipografia-1;
+            padding: 0px 0px 65px;
+        }
+
+        .section-title--name {
+            @include tipografia-2;
+            padding: 0px 0px 15px;
+        }
+
+        .section-title--paragraph {
+            @include tipografia-1;
+            padding: 0px 0px 35px;
+
+        }
+
+        .button-section {
+            @include conteiner(90px, 40px);
+            @include tipografia-1;
+            border-radius: 20px;
+            background-color: #23BE53;
+            border: none;
+            @include conteiner(135px, 45px);
+
+            .button-section--anchor {
+                text-decoration: none;
+                @include tipografia-1;
+            }
+        }
+
+
+    }
+
+
+    .aside-container {
+        @include conteiner(100%, 100%);
+        display: flex;
+        flex-direction: column;
+
+        .aside-container--box-image {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 37px 45px 5px;
+        }
+
+        .aside-container--box-image-center {
+            @include conteiner(100%, 100%);
+
+            .image-top {
+                margin: 0px 41px 69px 104px;
+                background: transparent;
+                transform: rotate(2deg);
+                height: 216px;
+            }
+
+            .image-center {
+                margin: -283px 60px 0px;
+                width: 493px;
+                height: 348px;
+                transform: rotate(-14deg);
+
+            }
+        }
+
+        .image--icon-js {
+            width: 95px;
+            height: 95px;
+            transform: rotate(-14deg);
+            margin: -62px 66px;
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

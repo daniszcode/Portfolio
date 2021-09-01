@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,23 +7,22 @@
 }
 
 body {
-  background-color: #060608;
+  background: #060608;
 }
 
+/*######################### HEADER ######################### */
 .header-container {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
-  background: url(/assets/cerejeira.png) 5% repeat;
-  background-size: cover;
 }
 .header-container .nav-menu {
-  font-size: 12pt;
+  font-size: 15pt;
   line-height: 1.3;
   font-family: "Inter", "monoespace", sans-serif;
   font-weight: 400;
-  color: #E7DFDD;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -37,26 +37,126 @@ body {
 .header-container .nav-menu .nav-menu--list .menu-list--option {
   text-decoration: none;
   margin-right: 36px;
-  font-size: 12pt;
+  font-size: 15pt;
   line-height: 1.3;
   font-family: "Inter", "monoespace", sans-serif;
   font-weight: 400;
-  color: #E7DFDD;
+  color: #ffffff;
 }
 .header-container .nav-menu .button-header {
-  width: 90px;
-  height: 40px;
-  font-size: 12pt;
+  font-size: 15pt;
   line-height: 1.3;
   font-family: "Inter", "monoespace", sans-serif;
   font-weight: 400;
-  color: #E7DFDD;
+  color: #ffffff;
   border-radius: 20px;
   background-color: #23BE53;
   border: none;
   width: 110px;
   height: 40px;
   margin-top: -5px;
+}
+.header-container .nav-menu .button-header .button-header--anchor {
+  text-decoration: none;
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/*######################### MAIN ######################### */
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.main-container .section-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 267px 86px;
+}
+.main-container .section-container .section-title {
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0px 0px 65px;
+}
+.main-container .section-container .section-title--name {
+  font-size: 18pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 700;
+  color: #23BE53;
+  padding: 0px 0px 15px;
+}
+.main-container .section-container .section-title--paragraph {
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0px 0px 35px;
+}
+.main-container .section-container .button-section {
+  width: 90px;
+  height: 40px;
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #23BE53;
+  border: none;
+  width: 135px;
+  height: 45px;
+}
+.main-container .section-container .button-section .button-section--anchor {
+  text-decoration: none;
+  font-size: 15pt;
+  line-height: 1.3;
+  font-family: "Inter", "monoespace", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+.main-container .aside-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-container .aside-container .aside-container--box-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 37px 45px 5px;
+}
+.main-container .aside-container .aside-container--box-image-center {
+  width: 100%;
+  height: 100%;
+}
+.main-container .aside-container .aside-container--box-image-center .image-top {
+  margin: 0px 41px 69px 104px;
+  background: transparent;
+  transform: rotate(2deg);
+  height: 216px;
+}
+.main-container .aside-container .aside-container--box-image-center .image-center {
+  margin: -283px 60px 0px;
+  width: 493px;
+  height: 348px;
+  transform: rotate(-14deg);
+}
+.main-container .aside-container .image--icon-js {
+  width: 95px;
+  height: 95px;
+  transform: rotate(-14deg);
+  margin: -62px 66px;
 }
 
 /*# sourceMappingURL=index.css.map */
